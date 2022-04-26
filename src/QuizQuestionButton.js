@@ -3,7 +3,7 @@ import React, {Component} from 'react';
 class QuizQuestionButton extends Component{
     
     handleClick(){
-        console.log(this.props.button_text);
+        console.log("Clicked on button with text " + this.props.button_text);
         this.props.clickHandler(this.props.button_text);
     }
     render(){
